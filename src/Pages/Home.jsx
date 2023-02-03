@@ -15,7 +15,7 @@ const Home = () => {
                         <Link to="/Technology">
                             {" "}
                             <img
-                                src={"https://www.finance-monthly.com/Finance-Monthly/wp-content/uploads/2017/07/top-new-innovation-technology.jpg"}
+                                src={"https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055__340.jpg"}
                                 alt="not found"
                             />
                         </Link>
@@ -25,7 +25,7 @@ const Home = () => {
                             <Link to="/fitness">
                                 {" "}
                                 <img
-                                    src={"https://images.indianexpress.com/2020/04/headstand-1200.jpg"}
+                                    src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRujD3JczgVP5rGZsTW06NWmqnMQdGMaKDPrA&usqp=CAU"}
                                     alt="not found"
                                 />
                             </Link>
@@ -35,7 +35,7 @@ const Home = () => {
                             <Link to="/Food">
                                 {" "}
                                 <img
-                                    src={"https://media.istockphoto.com/photos/biryani-picture-id1305452646?b=1&k=20&m=1305452646&s=170667a&w=0&h=1M4qIQor9-oTbDFc8osB9TKQEEMBn7j_4D1Qy7hRdNk="}
+                                    src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRujD3JczgVP5rGZsTW06NWmqnMQdGMaKDPrA&usqp=CAU"}
                                     alt="not found"
                                 />
                             </Link>
