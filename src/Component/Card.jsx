@@ -20,8 +20,10 @@ const Card = (props) => {
                         <img src={imgUrl} alt="{not found}" />
                     </div>
                     <div className="bigcard__data">
-                        <h5>{title}</h5>
-                        <p>{description}....</p>
+                        <h5 style={{color:'red',fontSize:'20px'}}>{title}</h5>
+                        <br/>
+                        <br/>
+                        <p style={{color:'green'}}>{description}</p>
                     </div>
                 </div>
                 <hr style={{ fontWeigth: "40px", color: "black" }} />

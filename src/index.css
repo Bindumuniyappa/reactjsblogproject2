@@ -14,7 +14,7 @@ code {
 
 
 /* single page */
-.single__page {
+.singlePage {
   margin: 50px 20%;
   align-items: center;
 }
@@ -98,7 +98,7 @@ img {
   color: #0d0d0d;
 }
 
-.nav ul li:hover {
+.nav ul li a:hover {
   color: crimson;
   font-size: 1.2rem;
   transition: all 0.2s ease-in-out;
@@ -208,7 +208,6 @@ img {
 
 .home__first {
   text-align: center;
-
   box-sizing: border-box;
   display: inline-block;
   color: white;
@@ -224,7 +223,6 @@ img {
 .home_right_container {
   display: flex;
   flex-direction: column;
-
   justify-content: space-between;
 }
 
@@ -344,8 +342,6 @@ img {
     height: 40vh;
   }
 }
-
-
 .main {
   text-align: center;
 }

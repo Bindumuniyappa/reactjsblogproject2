@@ -11,7 +11,7 @@ const SmallCard = (props) => {
                         <img src={imgUrl} alt="not found" />
                     </div>
                     <div className='small'  >
-                        <h6>{title} .....</h6>
+                        <h6>{title}</h6>
                     </div>
                 </div>
             </div>

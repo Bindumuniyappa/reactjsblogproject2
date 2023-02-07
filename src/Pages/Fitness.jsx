@@ -9,8 +9,8 @@ const Fitness = () => {
     console.log(detail);
     return (
         <div>
-            <h1 style={{ margin: "20px 10%", display: "inline-block" }}>Fitness</h1>
-            <h1 style={{ margin: "20px 0px 20px 41.9%", display: "inline-block" }}>Top Posts</h1>
+            <h1 style={{ margin: "20px 10%", display: "inline-block",color:'red' }}>Fitness</h1>
+            <h1 style={{ margin: "20px 0px 20px 41.9%", display: "inline-block",color:'red' }}>Top Posts</h1>
             <div className="main__container">
                 <div className='rightbar'>
                     {
@@ -19,7 +19,7 @@ const Fitness = () => {
                                 articleid={n.id}
                                 imgUrl={n.img}
                                 title={n.title}
-                                description={n.description.slice(0, 200)}
+                                description={n.description.slice(0,400)}
                                 author={n.author}
                             />
                         ))

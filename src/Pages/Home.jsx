@@ -111,7 +111,7 @@ const Home = () => {
                                 articleid={n.id}
                                 imgUrl={n.img}
                                 title={n.title}
-                                description={n.description.slice(0, 200)}
+                                description={n.description.slice(0, 400)}
                                 author={n.author}
                             />
                         ))}
@@ -126,7 +126,7 @@ const Home = () => {
                                 key={n.id}
                                 articleid={n.id}
                                 imgUrl={n.img}
-                                description={n.description.slice(0, 200)}
+                                description={n.description.slice(0, 400)}
                                 title={n.title.slice(0, 25)}
                                 author={n.author}
                             />
@@ -152,7 +152,7 @@ const Home = () => {
                                 articleid={n.id}
                                 imgUrl={n.img}
                                 title={n.title}
-                                description={n.description.slice(0, 200)}
+                                description={n.description.slice(0, 400)}
                                 author={n.author}
                             />
                         ))}
@@ -169,7 +169,7 @@ const Home = () => {
                                 articleid={n.id}
                                 imgUrl={n.img}
                                 title={n.title}
-                                description={n.description.slice(0, 200)}
+                                description={n.description.slice(0, 400)}
                                 author={n.author}
                             />
                         ))}

@@ -7,8 +7,8 @@ export const Technology = () => {
     const [detail] = useContext(store);
     return (
         <div>
-            <h1 style={{ margin: "20px 10%", display: "inline-block" }}>Technology</h1>
-            <h1 style={{ margin: "20px 0px 20px 38%", display: "inline-block" }}>Top Posts</h1>
+            <h1 style={{ margin: "20px 10%", display: "inline-block",color:'red' }}>Technology</h1>
+            <h1 style={{ margin: "20px 0px 20px 38%", display: "inline-block",color:'red' }}>Top Posts</h1>
 
             <div className="main__container">
                 <div className='rightbar'>
@@ -17,7 +17,7 @@ export const Technology = () => {
 
                             techId={n.id}
                             imgUrl={n.img}
-                            description={n.description.slice(0, 200)}
+                            description={n.description.slice(0, 400)}
                             title={n.title}
 
                         />))
@@ -29,7 +29,7 @@ export const Technology = () => {
                             <SmallCard
                                 articleid={n.id}
                                 imgUrl={n.img}
-                                description={n.description.slice(0, 200)}
+                                description={n.description.slice(0, 400)}
                                 title={n.title.slice(0, 25)}
                                 author={n.author}
                             />

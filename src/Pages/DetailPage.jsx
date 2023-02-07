@@ -8,13 +8,13 @@ const DetailPage = () => {
     const mystyle = {
         color: "red",
         backgroundColor: "yellow",
-        borderRadius: "8px"
+        borderRadius: "7px"
     }
 
     return (
         <div className='main'>
         <SingleBlogPage/>
-        <Link to="/"> <button style={mystyle} >Go Home</button> </Link>
+        <Link to="/"><button style={mystyle} >Go Home</button> </Link>
         </div>
     )
 }

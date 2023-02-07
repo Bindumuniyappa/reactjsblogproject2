@@ -228,10 +228,7 @@ const Details = (props) => {
     return (
         <div>
             <store.Provider value={[details, setDetails]}>
-
                 {props.children}
-
-
             </store.Provider>
         </div>
     )
