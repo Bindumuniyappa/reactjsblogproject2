@@ -15,11 +15,11 @@ const Card = (props) => {
             to={`${techId}`}
         >
             <div >
-                <div className="card__container">
+                <div className="cardContainer">
                     <div className="card__image">
                         <img src={imgUrl} alt="{not found}" />
                     </div>
-                    <div className="bigcard__data">
+                    <div className="bigCard">
                         <h5 style={{color:'red',fontSize:'20px'}}>{title}</h5>
                         <br/>
                         <br/>

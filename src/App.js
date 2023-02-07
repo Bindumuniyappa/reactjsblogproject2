@@ -7,7 +7,7 @@ import Bollywood from "./Pages/Bollywood";
 import Technology from "./Pages/Technology";
 import Fitness from "./Pages/Fitness";
 import Food from "./Pages/Food";
-import SingleBlogPage from "./Pages/SingleBlogPage";
+import ResultPage from "./Pages/ResultPage";
 import Details from "./Pages/Details";
 import DetailPage from "./Pages/DetailPage";
 
@@ -25,7 +25,7 @@ function App() {
             <Route path="/Technology" element={<Technology />} />
             <Route path="/fitness" element={<Fitness />} />
             <Route path="/food" element={<Food />} />
-            <Route path=":category/articleid" element={<SingleBlogPage />} />
+            <Route path=":category/articleid" element={<ResultPage />} />
             <Route path="*" element={<DetailPage/>} />
           </Routes>
         </BrowserRouter>

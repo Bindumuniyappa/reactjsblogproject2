@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 
 import { store } from './Details'
 import Card from '../Component/Card'
-import SmallCard from '../Component/SmallCard';
+import SmallCard from '../Component/Card2';
 
 const Fitness = () => {
     const [detail] = useContext(store);

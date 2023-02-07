@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import Card from "../Component/Card";
 import CardHome from "../Component/CardHome";
-import SmallCard from "../Component/SmallCard";
+import SmallCard from "../Component/Card2";
 import { store } from "./Details";
 
 const Home = () => {

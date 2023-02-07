@@ -3,7 +3,7 @@ import React, { createContext, useState } from 'react'
 export const store = createContext()
 
 const Details = (props) => {
-    const [details, setDetails] = useState([
+    const [content, setContent] = useState([
         {
             "id": 1,
             "title": "KASHMIRI PANDITH",
@@ -227,7 +227,7 @@ const Details = (props) => {
     ]);
     return (
         <div>
-            <store.Provider value={[details, setDetails]}>
+            <store.Provider value={[content, setContent]}>
                 {props.children}
             </store.Provider>
         </div>

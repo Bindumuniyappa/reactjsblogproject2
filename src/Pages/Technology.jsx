@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { store } from './Details'
 import Card from '../Component/Card'
-import SmallCard from '../Component/SmallCard';
+import SmallCard from '../Component/Card2';
 
 export const Technology = () => {
     const [detail] = useContext(store);

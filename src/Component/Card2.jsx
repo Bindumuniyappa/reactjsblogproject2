@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const SmallCard = (props) => {
+const Card2 = (props) => {
     const { imgUrl, title, description, articleid } = props;
     return (
         <Link state={{ title: title, img: imgUrl, description: description, id: articleid }} to={`${articleid}`}>
@@ -19,4 +19,4 @@ const SmallCard = (props) => {
     )
 }
 
-export default SmallCard;
+export default Card2;

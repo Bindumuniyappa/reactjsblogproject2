@@ -1,7 +1,7 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
 
-const SingleBlogPage = () => {
+const ResultPage = () => {
     const location = useLocation();
     const { title, img, description } = location.state;
     console.log(title)
@@ -14,4 +14,4 @@ const SingleBlogPage = () => {
     )
 }
 
-export default SingleBlogPage;
+export default ResultPage;

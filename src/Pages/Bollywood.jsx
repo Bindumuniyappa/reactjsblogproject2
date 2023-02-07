@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { store } from './Details'
 import Card from '../Component/Card'
-import SmallCard from '../Component/SmallCard';
+import SmallCard from '../Component/Card2';
 
 const Bollywood = () => {
     const [detail] = useContext(store);
@@ -19,7 +19,7 @@ const Bollywood = () => {
                                 articleid={n.id}
                                 imgUrl={n.img}
                                 title={n.title}
-                                description={n.description.slice(0, 400)}
+                                description={n.description}
                                 author={n.author}
                             />
                         ))

@@ -108,27 +108,27 @@ img {
   display: flex;
 }
 
-.card__Home {
+.cardHome {
   /* border: 2px solid red; */
   height: 500px;
   margin-top: 50px;
 }
 
-.card__Home h3 {
+.cardHome h3 {
   margin-bottom: 18px;
 }
 
-.card__Home img {
+.cardHome img {
   box-sizing: border-box;
   height: 300px;
   border-radius: 15px;
 }
 
-.card__container {
+.cardContainer {
   display: flex;
 }
 
-.card__container img {
+.cardContainer img {
   width: 300px;
   height: 200px;
 }
@@ -176,13 +176,13 @@ img {
   margin: 0px 10%;
 }
 
-.bigcard__data {
+.bigCard {
   box-sizing: border-box;
   padding-right: 20px;
   margin-left: 20px;
 }
 
-.bigcard__data h5 {
+.bigCard h5 {
   color: #0d0d0d;
   text-decoration: none;
 }

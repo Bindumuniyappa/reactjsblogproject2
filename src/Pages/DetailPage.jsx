@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import SingleBlogPage from './SingleBlogPage'
+import ResultPage from './ResultPage'
 
 
 
@@ -13,7 +13,7 @@ const DetailPage = () => {
 
     return (
         <div className='main'>
-        <SingleBlogPage/>
+        <ResultPage/>
         <Link to="/"><button style={mystyle} >Go Home</button> </Link>
         </div>
     )
